@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="statusCode_info_1xx.Test_1xx">
+        <methods>
+          <include name="validate_101_Switching_Protocols"/>
+          <include name="validate_102_Processing"/>
+          <include name="validate_103_EarlyHint"/>
+          <include name="setupSpec"/>
+          <include name="closePrerequisites"/>
+          <include name="setupMainresourses"/>
+          <include name="validate100_Continue"/>
+        </methods>
+      </class> <!-- statusCode_info_1xx.Test_1xx -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

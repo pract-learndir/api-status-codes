@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteInfoCodes" parallel="tests">
+  <test name="Test1xxCodes">
+    <classes>
+      <class name="statusCode_info_1xx.Test_1xx"/>
+    </classes>
+  </test> <!-- Test1xxCodes -->
+</suite> <!-- SuiteInfoCodes -->
