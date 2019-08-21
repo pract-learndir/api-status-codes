@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="4" total="5" passed="1">
+<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1992" started-at="2019-08-13T14:05:33Z" finished-at="2019-08-13T14:05:35Z">
+  <suite name="Default suite" duration-ms="2468" started-at="2019-08-20T14:12:05Z" finished-at="2019-08-20T14:12:07Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1992" started-at="2019-08-13T14:05:33Z" finished-at="2019-08-13T14:05:35Z">
-      <class name="statusCode_Success_2xx.Test_2xx">
-        <test-method status="PASS" signature="setupSpec()[pri:0, instance:statusCode_Success_2xx.Test_2xx@59309333]" name="setupSpec" is-config="true" duration-ms="54" started-at="2019-08-13T19:35:33Z" finished-at="2019-08-13T19:35:33Z">
+    <test name="Default test" duration-ms="2468" started-at="2019-08-20T14:12:05Z" finished-at="2019-08-20T14:12:07Z">
+      <class name="statusCode_Redirection_3xx.Test_3xx">
+        <test-method status="PASS" signature="setupSpec()[pri:0, instance:statusCode_Redirection_3xx.Test_3xx@59309333]" name="setupSpec" is-config="true" duration-ms="52" started-at="2019-08-20T19:42:05Z" finished-at="2019-08-20T19:42:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSpec -->
-        <test-method status="PASS" signature="setupMainresourses()[pri:0, instance:statusCode_Success_2xx.Test_2xx@59309333]" name="setupMainresourses" is-config="true" duration-ms="20" started-at="2019-08-13T19:35:33Z" finished-at="2019-08-13T19:35:33Z">
+        <test-method status="PASS" signature="setupMainresourses()[pri:0, instance:statusCode_Redirection_3xx.Test_3xx@59309333]" name="setupMainresourses" is-config="true" duration-ms="20" started-at="2019-08-20T19:42:05Z" finished-at="2019-08-20T19:42:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMainresourses -->
-        <test-method status="PASS" signature="validate_204_NoContent()[pri:0, instance:statusCode_Success_2xx.Test_2xx@59309333]" name="validate_204_NoContent" duration-ms="1905" started-at="2019-08-13T19:35:33Z" finished-at="2019-08-13T19:35:35Z">
+        <test-method status="PASS" signature="validate_303_seeOther()[pri:0, instance:statusCode_Redirection_3xx.Test_3xx@59309333]" name="validate_303_seeOther" duration-ms="2384" started-at="2019-08-20T19:42:05Z" finished-at="2019-08-20T19:42:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validate_204_NoContent -->
-        <test-method status="PASS" signature="closePrerequisites()[pri:0, instance:statusCode_Success_2xx.Test_2xx@59309333]" name="closePrerequisites" is-config="true" duration-ms="1" started-at="2019-08-13T19:35:35Z" finished-at="2019-08-13T19:35:35Z">
+        </test-method> <!-- validate_303_seeOther -->
+        <test-method status="PASS" signature="closePrerequisites()[pri:0, instance:statusCode_Redirection_3xx.Test_3xx@59309333]" name="closePrerequisites" is-config="true" duration-ms="0" started-at="2019-08-20T19:42:07Z" finished-at="2019-08-20T19:42:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closePrerequisites -->
-      </class> <!-- statusCode_Success_2xx.Test_2xx -->
+      </class> <!-- statusCode_Redirection_3xx.Test_3xx -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

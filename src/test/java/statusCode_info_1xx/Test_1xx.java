@@ -11,6 +11,8 @@ import io.restassured.response.Response;
 
 
 public class Test_1xx extends TestBase{
+	
+	/*100 series status codes SHOULD NOT be recorded in a 'response' XML element.*/
 
 	@Test
 	public void validate100_Continue() {
