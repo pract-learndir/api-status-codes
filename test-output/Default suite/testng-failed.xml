@@ -3,17 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="statusCode_info_1xx.Test_1xx">
+      <class name="statusCode_Redirection_3xx.Test_3xx">
         <methods>
-          <include name="validate_101_Switching_Protocols"/>
-          <include name="validate_102_Processing"/>
-          <include name="validate_103_EarlyHint"/>
+          <include name="validate_305_useProxy"/>
           <include name="setupSpec"/>
           <include name="closePrerequisites"/>
           <include name="setupMainresourses"/>
-          <include name="validate100_Continue"/>
         </methods>
-      </class> <!-- statusCode_info_1xx.Test_1xx -->
+      </class> <!-- statusCode_Redirection_3xx.Test_3xx -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
