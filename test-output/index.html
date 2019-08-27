@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\shridharn\AppData\Local\Temp\testng-eclipse--2013964052\testng-customsuite.xml</span>
+                    <span>C:\Users\shridharn\AppData\Local\Temp\testng-eclipse--1134542066\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,7 +102,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="statusCode_ClientError_4xx.Test_4xx" hash-for-method="validate_409_conflict">validate_409_conflict</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="statusCode_ServerError_5xx.Test_5xx" hash-for-method="validate_522_ConnectionTimedOut">validate_522_ConnectionTimedOut</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -120,14 +120,14 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">statusCode_ClientError_4xx.Test_4xx</span>
+              <span class="class-name">statusCode_ServerError_5xx.Test_5xx</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="validate_409_conflict">
-                  </a> <!-- validate_409_conflict -->
-                  <span class="method-name">validate_409_conflict</span>
+                  <a name="validate_522_ConnectionTimedOut">
+                  </a> <!-- validate_522_ConnectionTimedOut -->
+                  <span class="method-name">validate_522_ConnectionTimedOut</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -135,7 +135,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\shridharn\AppData\Local\Temp\testng-eclipse--2013964052\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\shridharn\AppData\Local\Temp\testng-eclipse--1134542066\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -144,11 +144,11 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;statusCode_ClientError_4xx.Test_4xx&quot;&gt;
+      &lt;class name=&quot;statusCode_ServerError_5xx.Test_5xx&quot;&gt;
         &lt;methods&gt;
-          &lt;include name=&quot;validate_409_conflict&quot;/&gt;
+          &lt;include name=&quot;validate_522_ConnectionTimedOut&quot;/&gt;
         &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- statusCode_ClientError_4xx.Test_4xx --&gt;
+      &lt;/class&gt; &lt;!-- statusCode_ServerError_5xx.Test_5xx --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -190,14 +190,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'validate_409_conflict')
-data.setCell(0, 2, 'statusCode_ClientError_4xx.Test_4xx')
-data.setCell(0, 3, 4127);
+data.setCell(0, 1, 'validate_522_ConnectionTimedOut')
+data.setCell(0, 2, 'statusCode_ServerError_5xx.Test_5xx')
+data.setCell(0, 3, 2075);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -212,29 +212,23 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">9 ignored methods</span>
+            <span class="header-content">6 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">statusCode_ClientError_4xx.Test_4xx</span>
+              <span class="ignored-class-name">statusCode_ServerError_5xx.Test_5xx</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_403_forbidden</span>
+                <span class="ignored-method-name">validate_511_networkAuthenticationRequired</span>
                 <br/>
-                <span class="ignored-method-name">validate_406_notAcceptable</span>
+                <span class="ignored-method-name">validate_505_httpVersionUnsupported</span>
                 <br/>
-                <span class="ignored-method-name">validate_400_badRequest</span>
+                <span class="ignored-method-name">validate_504_gatewayTimeout</span>
                 <br/>
-                <span class="ignored-method-name">validate_405_methodNotAllowed</span>
+                <span class="ignored-method-name">validate_500_internalServerErr</span>
                 <br/>
-                <span class="ignored-method-name">validate_407_proxyAuthenticationRequired</span>
+                <span class="ignored-method-name">validate_502_badGateway</span>
                 <br/>
-                <span class="ignored-method-name">validate_402_paymentRequired</span>
-                <br/>
-                <span class="ignored-method-name">validate_401_unauthorized</span>
-                <br/>
-                <span class="ignored-method-name">validate_404_notFound</span>
-                <br/>
-                <span class="ignored-method-name">validate_408_requestTime</span>
+                <span class="ignored-method-name">validate_503_serviceUnavailable</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -246,22 +240,22 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">statusCode_ClientError_4xx.Test_4xx</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">statusCode_ServerError_5xx.Test_5xx</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setupSpec</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">setupMainresourses</span>
-                <span class="method-start">57 ms</span>
+                <span class="method-start">55 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">validate_409_conflict</span>
-                <span class="method-start">87 ms</span>
+                <span class="method-name">validate_522_ConnectionTimedOut</span>
+                <span class="method-start">80 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">closePrerequisites</span>
-                <span class="method-start">4217 ms</span>
+                <span class="method-start">2169 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

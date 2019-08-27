@@ -282,5 +282,37 @@ public class Test_4xx extends TestBase{
 	
 
 	}
+	
+	
+	@Test
+	private void validate_410_gone() {
+	
+		/*
+		 * The target resource is no longer available at the origin server and that this condition is likely to be permanent.
+		 * 
+		 * he 410 response is primarily intended to assist the task of web maintenance by notifying the recipient 
+		 * that the resource is intentionally unavailable and that the server owners desire that remote links to that resource be removed. 
+		 * Such an event is common for limited-time, promotional services and for resources belonging to individuals no longer associated with the origin server's site
+		 * 
+		 * NOTE: A 410 response is cacheable by default;
+		 * 
+		 * If the origin server does not know, or has no facility to determine, 
+		 * whether or not the condition is permanent, the status code 404 Not Found ought to be used instead.
+		 * */
+		
+		requestSpecBuild.basePath("410").log().all();
+
+		Response respo410 = given().spec(requestSpecBuild).when().get();
+		
+		System.out.println("status code -->"+respo410.statusCode());
+		System.out.println("status line -->"+respo410.statusLine());
+		System.out.println("---------------");
+		System.out.println("respo headers: \n"+respo410.headers());
+		System.out.println("---------------");
+		System.out.println("cachable coockies --> "+respo410.header("Set-Coockies"));
+		System.out.println("---------------");
+		System.out.println("body:\n"+respo410.body().prettyPrint());
+
+	}
 
 }

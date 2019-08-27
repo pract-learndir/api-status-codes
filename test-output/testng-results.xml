@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="9" total="10" passed="1">
+<testng-results skipped="0" failed="0" ignored="6" total="7" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4219" started-at="2019-08-22T11:14:02Z" finished-at="2019-08-22T11:14:07Z">
+  <suite name="Default suite" duration-ms="2171" started-at="2019-08-27T10:29:27Z" finished-at="2019-08-27T10:29:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4219" started-at="2019-08-22T11:14:02Z" finished-at="2019-08-22T11:14:07Z">
-      <class name="statusCode_ClientError_4xx.Test_4xx">
-        <test-method status="PASS" signature="setupSpec()[pri:0, instance:statusCode_ClientError_4xx.Test_4xx@59309333]" name="setupSpec" is-config="true" duration-ms="54" started-at="2019-08-22T16:44:02Z" finished-at="2019-08-22T16:44:02Z">
+    <test name="Default test" duration-ms="2171" started-at="2019-08-27T10:29:27Z" finished-at="2019-08-27T10:29:29Z">
+      <class name="statusCode_ServerError_5xx.Test_5xx">
+        <test-method status="PASS" signature="setupSpec()[pri:0, instance:statusCode_ServerError_5xx.Test_5xx@59309333]" name="setupSpec" is-config="true" duration-ms="52" started-at="2019-08-27T15:59:27Z" finished-at="2019-08-27T15:59:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSpec -->
-        <test-method status="PASS" signature="setupMainresourses()[pri:0, instance:statusCode_ClientError_4xx.Test_4xx@59309333]" name="setupMainresourses" is-config="true" duration-ms="24" started-at="2019-08-22T16:44:02Z" finished-at="2019-08-22T16:44:02Z">
+        <test-method status="PASS" signature="setupMainresourses()[pri:0, instance:statusCode_ServerError_5xx.Test_5xx@59309333]" name="setupMainresourses" is-config="true" duration-ms="20" started-at="2019-08-27T15:59:27Z" finished-at="2019-08-27T15:59:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMainresourses -->
-        <test-method status="PASS" signature="validate_409_conflict()[pri:0, instance:statusCode_ClientError_4xx.Test_4xx@59309333]" name="validate_409_conflict" duration-ms="4127" started-at="2019-08-22T16:44:02Z" finished-at="2019-08-22T16:44:07Z">
+        <test-method status="PASS" signature="validate_522_ConnectionTimedOut()[pri:0, instance:statusCode_ServerError_5xx.Test_5xx@59309333]" name="validate_522_ConnectionTimedOut" duration-ms="2075" started-at="2019-08-27T15:59:27Z" finished-at="2019-08-27T15:59:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validate_409_conflict -->
-        <test-method status="PASS" signature="closePrerequisites()[pri:0, instance:statusCode_ClientError_4xx.Test_4xx@59309333]" name="closePrerequisites" is-config="true" duration-ms="0" started-at="2019-08-22T16:44:07Z" finished-at="2019-08-22T16:44:07Z">
+        </test-method> <!-- validate_522_ConnectionTimedOut -->
+        <test-method status="PASS" signature="closePrerequisites()[pri:0, instance:statusCode_ServerError_5xx.Test_5xx@59309333]" name="closePrerequisites" is-config="true" duration-ms="0" started-at="2019-08-27T15:59:29Z" finished-at="2019-08-27T15:59:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closePrerequisites -->
-      </class> <!-- statusCode_ClientError_4xx.Test_4xx -->
+      </class> <!-- statusCode_ServerError_5xx.Test_5xx -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
